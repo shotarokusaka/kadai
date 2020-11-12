@@ -1,0 +1,24 @@
+.wrapper {
+  background-color:blue;
+
+}
+h1 {
+  background-color:gray;
+
+ {}
+
+ul {
+  display:flex;
+  justify-content:space-between;
+  list-style:none;
+}
+
+.menu ul li {
+  background-color:gray;
+  margin:20px;
+  padding:20px;
+
+}  
+li {
+  display:list-item;
+} 

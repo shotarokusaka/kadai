@@ -1,0 +1,60 @@
+
+.wrapper {
+   color:black;
+   text-align:center;
+}
+
+.menu ul li {
+  list-style:none;
+  background-color:gray;
+  margin:20px;
+  padding:20px;
+  width:100px;
+}
+
+.menu ul {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+  /*他に中央よせのCENTER左端から始まるflex-start
+  いい具合にスペースつけるspace-aroundとかがある
+  ベンダープレフィックス*/
+
+.nikki {
+  border:1px solid white;
+  width:50%;
+  margin-left:25%;
+  margin-bottom:20px;
+  height:500px;
+  height:auto;
+  overflow:scroll;
+}
+
+.nikki p {
+  line-height:1.5em;
+}
+
+h1 {
+  background-color:gray;
+  text-align:left;
+  padding:5px;
+  letter-spacing:8px;
+}
+
+h2 {
+  background-color:white;
+  color:black;
+
+}
+.nikki img {
+  width:100%
+}
+
+img.top {
+  width:50%;
+}
+
+
+
+

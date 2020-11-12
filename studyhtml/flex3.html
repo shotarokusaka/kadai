@@ -1,0 +1,151 @@
+<!Doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="reset.css" media="all">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="flex3.css" media="all">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="jss/slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="jss/slick/slick/slick-theme.css"/>
+<script type="text/javascript" src="jss/slick/slick/slick.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+$(function(){
+  $('body').fadeIn(3000);
+
+  $('.hero p').on('click',function(){
+    $(this).css('height','300px');
+    $('li').css('backgroundColor','yellow');
+    
+   });
+
+  $('.menu ul li').on('click',function(){
+    $('.hero p').slideToggle(900);
+   });
+
+  $(window).scroll(function(){
+    var kusaka = '変数は箱'  
+    console.log('kusaka');
+    var scrollvalue = $(this).scrollTop();
+    console.log('scrollvalue')
+    
+  });
+
+  $('.main').slick({
+  accesibility:true,
+  autoplay:true,
+  autoplayspeed:3000,
+  pauseOnHover:true,
+  speed:400,
+});
+
+  }); 
+</script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <ul>    
+        <li><a href="flex2.html">TOP</a></li>
+        <li>ABOUT</li>
+        <li>FAQ</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+ 
+    <div class="content">
+      <div class="hero">
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+      
+      <div class="main-middle">
+        <div class="main">
+          <div class="main-inside">
+            <img src="IMG1.jpg">
+            <div class="main-inside-text">
+              <h2>見出し</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+
+          <div class="main-inside">
+            <img src="IMG1.jpg">
+            <div class="main-inside-text">
+              <h2>見出し</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="main-inside">
+            <img src="IMG1.jpg">
+            <div class="main-inside-text">
+              <h2>見出し</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="main-inside">
+            <img src="IMG1.jpg">
+            <div class="main-inside-text">
+              <h2>見出し</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="main-inside">
+            <img src="IMG1.jpg">
+            <div class="main-inside-text">
+              <h2>見出し</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="main-inside">
+            <img src="IMG1.jpg">
+            <div class="main-inside-text">
+              <h2>見出し</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+        <div class="side">
+          <h2>がんばろう<h2>
+          <img src="IMG2.jpg">
+          <h2>がんばろう<h2>
+          <img src="IMG2.jpg">
+          <h2>がんばろう<h2>
+          <img src="IMG2.jpg">
+          <h2>がんばろう<h2>
+          <img src="IMG2.jpg">
+          <h2>がんばろう<h2>
+          <img src="IMG2.jpg">
+          <h2>がんばろう<h2>
+          <img src="IMG2.jpg">
+        </div>
+      </div>
+
+      <div class="main-bottom">
+        <div class="image2">
+        </div>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>        
+      </div>
+      <footer>
+
+    <div class="menu">
+      <ul>    
+        <li>TOP</li>
+        <li>ABOUT</li>
+        <li>FAQ</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+      </footer>
+
+    </div>
+  
+  </div>
+<body>
+
+</html>
+

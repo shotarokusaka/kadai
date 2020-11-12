@@ -1,0 +1,133 @@
+<!Doctype html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="reset.css" media="all">
+  <link rel="stylesheet" href="kadaireal.css" media="all">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="jss/slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="jss/slick/slick/slick-theme.css"/>
+<script type="text/javascript" src="jss/slick/slick/slick.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+$(function(){
+  $('.hero').fadeIn(6000);
+ 
+   });
+
+  $('.menu ul li').on('click',function(){
+    $('.hero p').slideToggle(900);
+    
+  });
+
+  $('.hero').slick({
+  accesibility:true,
+  autoplay:true,
+  autoplayspeed:3000,
+  pauseOnHover:true,
+  speed:400,
+});
+
+</script>
+
+
+</head>
+
+<body>
+
+<div class="wrapper"> 
+  <div class="hero">
+    <img src="">
+  </div>
+  <div class="logo">
+    <img src="logo.png">
+  </div>
+  <div class="menu">
+    <ul>
+      <li>HOME</li>
+      <li>WHO WE ARE</li>
+      <li>ONLINE SHOP</li>
+      <li>LOOKBOOK</li>
+      <li>SHOWROOM</li>
+      <li>NEWS & TOPICS</li>
+      <li>JOBS</li>
+      <li>CONTACT</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="left-box">
+      <h2>with you</h2>
+      <p>Bed is not just for sleep.<br>It always envelops you in a warm hug,<br>and give you a new day like family.</p>
+      <p>ベッドは、ただ寝るための家具ではありません。<br>
+どんな時でもそっとあなたを包み込み、<br>新しい一日を与えてくれる 「家族」のような存在です。<br>だからこそ、お客様お一人お一人にとって、<br>心から寄り添える（with you）ベッドを。</p>
+      <button class="button">EXPLORE</button>
+    </div>
+    <div class="right-box">
+      <img src="withyou_img01.jpg">
+    </div>
+  </div>
+  <div class="lookbook">
+    <h2>Lo<span>okbo</span>ok</h2>
+    <h3>ルックブック</h3>
+  </div>
+  <div class="lookbook-img">
+    <img src="lookbook_img01.jpg">
+      <div class="box">
+        <h2>LOOKBOOK<br><span class="no1">No.1</span></h2>
+      </div>
+  </div>
+  
+  <div class="middle-contents">
+    <h2>Co<span>nten</span>ts</h2>
+    <h3>コンテンツ</h3>
+  </div>
+
+  <div class="bottom-contents">
+    <div class="article">
+      <img src="contents_img01.jpg">
+      <h3><button>WHO WE ARE</button></h3>
+    </div>
+    <div class="article">
+      <img src="contents_img02.jpg">
+      <h3><button>SHOWROOM</button></h3>
+    </div>
+    <div class="article">
+      <img src="contents_img03.jpg">
+      <h3><button>JOBS</button></h3>
+    </div>
+    <div class="article">
+      <img src="contents_img04.jpg">
+      <h3><button>NEWS&TOPICS</button></h3>
+    </div>
+  </div>  
+  <div class="bottom-contents-bottom">
+    <img src="">
+  </div> 
+
+  <footer>
+   <div class="footer-menu">
+     <ul>
+       <li>COMPANY</li>
+       <li>PRIVACY POLICY</li>
+       <li>CONTACT</li>
+       <li>SITEMAP</li>
+     </ul>
+   </div>
+  </footer>
+  
+  <div class="bottom-logo">
+    <img class="footer-logo "src="f_logo.png">
+    <p>© 2014 VENUS BED Co., Ltd.</p>
+    <a href="https://facebook.com"><img src="f_fb.png"></a>
+  </div>
+ 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+.wrapper {
+  background-color:lightblue;
+  height:700px;
+  width:100%
+ } 
+
+.menu ul {
+  display:flex;
+  justify-content:space-between;
+}
+
+li {
+list-style:none;
+}
+
+.content {
+  width:100%;
+  background-color:yellow;
+  display:flex;
+}
+
+.main {
+  background-color:red;
+  width:70%;
+} 
+.main img {
+  width:30%;
+
+}
+.main-inside {
+  display: flex;
+}
+
+.side {
+  background-color:green;
+  width:30%
+}
+

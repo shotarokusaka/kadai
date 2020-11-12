@@ -1,0 +1,18 @@
+.wrapper {
+  width:500px;
+  height:500px;
+  margin:auto;
+  background-color:yellow;
+  position:relative;
+}
+.position {
+ 
+}
+h2 {
+  position:absolute;
+  padding:60px;
+  background-color:blue;
+  top:50%;
+  left:50%;
+}
+

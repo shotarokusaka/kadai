@@ -1,0 +1,156 @@
+.wraopper{
+  width:100%;
+}
+
+.hero{
+  background:url(kv01.jpg);
+  background-size:cover;
+  background-position:50% 50%;
+  height:800px;
+}
+
+.logo {
+  display:flex;
+  justify-content:center;
+  margin:30px;
+}
+
+.menu ul{
+  display:flex;
+  list-style:none;
+  justify-content:space-around;
+  border-top:0.5px solid #565656;
+  padding:30px 0;
+  width:100%;
+  margin:auto;
+}
+
+.content{
+  width:100%;
+}
+
+.content-top{
+  display:flex;
+  width:100%;
+  background-color:black;
+  margin-bottom:100px;
+}
+
+.content-top-left{
+  width:50%
+}
+
+.content-top-right{
+  width:50%;
+}
+
+.content-top-right img{
+  width:100%;
+}
+ 
+.content-top-left h2, p{
+  color:white;
+} 
+
+.content-top-left{
+  margin:auto;
+}
+
+.text1{
+  font-size:30px;
+  text-align:center;
+  line-height:10px;
+  margin:20px 0;
+  line-height:30px;
+  font-weight:bold;
+  i
+}
+.text2{
+  text-align:center;
+  margin:20px 0;
+  line-height:30px;
+}
+
+.text3{
+  text-align:center;
+  margin:20px 0;
+  line-height:30px;
+}
+
+button{
+  color:white;
+  padding:15px 40px;
+  background-color:orange;
+  text-align:center;
+  margin:30px 30px 30px 225px;
+}
+
+button:hover{
+ background-color:#D06702;
+
+}
+
+.content-middle{
+  width:90%;
+  margin:center;
+  margin-bottom:50px;
+}
+
+.content-middle h2{
+  text-align:center;
+  line-height:30px;
+
+}
+
+.text4{
+  color:black;
+  font-weight:lighter;
+  line-height:30px;
+  text-align:center;
+  margin:40px 0 100px 0;
+}
+
+.underline{
+  border-bottom:1px solid black;
+  padding-bottom:25px;
+}
+
+.bed{
+  width:90%;
+  margin-left:40px;
+  position:relative;
+ 
+}  
+
+.box{
+  background-color:orange;
+  color:white;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  right:50%;
+}
+.section{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  width:90%;
+  margin:auto;
+  margin-bottom:30px;
+}
+
+
+}
+
+.footer-menu{
+  border-bottom:1px solid #565656;
+  border-top:1px solid #565656;
+}
+
+.footer-menu ul{
+  display:flex;
+  justify-content:space-around;
+  padding:30px 0;
+}
+
+
